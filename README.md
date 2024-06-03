@@ -1,3 +1,5 @@
+<h1> Complete guild to INTERNET SECURITY, PRIVACY AND Anonymity </h1>
+
 <h3> CYBER - SECURITY DOCUMENTATION BY (Bright Jonathan)<h3>
 
 
@@ -10,7 +12,7 @@
 
 
 <ul>
-<p> Using the DNS/HTTP in CanaryTokens</p>
+<p> Using the DNS/HTTP in CanaryTokens </p>
   <li> Generate the token either DOCX or PDF </li>
   <li> Re-Name it and distribute it all your file  </li>
   <li> Put sensitive infor in the word doc as a trap </li>
