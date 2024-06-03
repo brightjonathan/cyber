@@ -12,14 +12,14 @@
 
 
 <ul>
-<p> Using the DNS/HTTP in CanaryTokens </p>
+<h4> Using the DNS/HTTP in CanaryTokens </h4>
   <li> Generate the token either DOCX or PDF </li>
   <li> Re-Name it and distribute it all your file  </li>
   <li> Put sensitive infor in the word doc as a trap </li>
 </ul>
 
 <ul>
-<p> Using the Browser Scanner</p>
+<h4> Using the Browser Scanner</h4>
   <li> click on we bugs  </li>
   <li>  go to another email and send the url   </li>
   <li> once the link is been clicked it triggers the token in your mail box </li>
