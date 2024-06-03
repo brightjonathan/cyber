@@ -40,7 +40,8 @@
 <li> Application </li>
 </ol>
 
-<p>Protect what your value like E.g <p>
+<h3> My Security Assests</h3>
+<p> Protect what your value like E.g <p>
 <ul>
   <li>photo</li>
   <li>Credit card details</li>
