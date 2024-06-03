@@ -1,4 +1,4 @@
-<h1> Complete guild to INTERNET SECURITY, PRIVACY AND Anonymity </h1>
+<h2> Complete guild to INTERNET SECURITY, PRIVACY AND Anonymity </h2>
 
 <h3> CYBER - SECURITY DOCUMENTATION BY (Bright Jonathan)<h3>
 
@@ -25,8 +25,53 @@
   <li> once the link is been clicked it triggers the token in your mail box </li>
 </ul>
 
+<h2>Things to protect</h2>
+<h4>What is most confidential?</h4>
+<h4>What you cannot afford to lose?</h4>
+<h4>What is irresplaceable?</h4>
+<h4>What could cause the most damage?</h4>
+<h4>What could damage your reputation?</h4>
+
+
+<p> What to protect </p>
+<h5>self / Family</h5>
+<h5> Organization service</h5>
+<h5>Application</h5>
+<h5></h5>
+
+<p>Protect what your value like E.g <p>
+<ul>
+  <li>photo</li>
+  <li>Credit card details</li>
+  <li> Bank acct </li>
+  <li>personel identifier infor</li>
+  <li>Brower hstory</li>
+  <li>password infor</li>  
+</ul>
+
 <p><p>
 <div></div>
 <h1></h1>
 <span></span>
 <a href=""></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
