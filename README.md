@@ -51,6 +51,30 @@
   <li>password infor</li>  
 </ul>
 
+
+<h4> Privacy and Anonymity</h4>
+<p> <b> Privacy </b> is nobody see what you are doing but knows who did it. it's about confidientality E.g (sending encryted email to your friend only you and the password has access) </p>
+<p> <b> Anonymity </b> Anonymity means being completely nameless, unknown, and unidentifiable. It involves hiding one's identity, making it impossible to trace actions or information back to the individual. Anonymity is often achieved through measures like: 
+- Using anonymous networks (e.g., Tor)
+- Encryption
+- Virtual private networks (VPNs)
+- Anonymous browsing tools
+</p> 
+<p> Pseudonymity involves using a fictional name or identifier, allowing individuals to remain identifiable only by a pseudonym. This means their real identity is not revealed, but their pseudonymous identity can be traced back to their online activities. Examples include:
+
+- Usernames or handles
+- Pen names
+- Avatars
+- Screen names
+ </p> 
+
+<h2> What is SABSA? </h2>
+<p> SABSA stands for the Sherwood Applied Business Security Architecture, and is a leading methodology for developing business operational risk and opportunity-based architectures. It provides a framework for developing risk driven enterprise information security and information assurance architectures. It also helps deliver security infrastructure solutions that support critical business initiatives. </p>
+
+
+
+
+
 <p><p>
 <div></div>
 <h1></h1>
