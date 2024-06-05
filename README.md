@@ -60,7 +60,7 @@
 - Virtual private networks (VPNs)
 - Anonymous browsing tools
 </p> 
-<p> Pseudonymity involves using a fictional name or identifier, allowing individuals to remain identifiable only by a pseudonym. This means their real identity is not revealed, but their pseudonymous identity can be traced back to their online activities. Examples include:
+<p> <b>Pseudonymity</b> involves using a fictional name or identifier, allowing individuals to remain identifiable only by a pseudonym. This means their real identity is not revealed, but their pseudonymous identity can be traced back to their online activities. Examples include:
 
 - Usernames or handles
 - Pen names
@@ -68,18 +68,74 @@
 - Screen names
  </p> 
 
-<h2> What is SABSA? </h2>
-<p> SABSA stands for the Sherwood Applied Business Security Architecture, and is a leading methodology for developing business operational risk and opportunity-based architectures. It provides a framework for developing risk driven enterprise information security and information assurance architectures. It also helps deliver security infrastructure solutions that support critical business initiatives. </p>
+
+<p> <b>Risk = </b>(Vulnerabilities * Threats * Consequences) </p>
+
+<ol>
+<h2>Levels of Risks </h2>
+<li> Assets </li>
+<li> Vulnerabilities </li>
+<li> Threats </li>
+<li> Adversaries</li>
+<li> Consequences</li>
+</ol>
+
+
+<ol>
+<h2> Security controls </h2>
+<li> Select </li>
+<li> Implement </li>
+<li> Assess </li>
+<li> Monitor </li>
+</ol>
+
+
+<ol>
+<h2> The Parkerian Hexad Security Attributes are the following: 
+<a href="https://en.wikipedia.org/wiki/Parkerian_Hexad"> Security Attributes links </a> </h2>
+<li> Confidentiality </li>
+<li> Possession or Control </li>
+<li> Integrity </li>
+<li> Authenticity  </li>
+<li> Availability </li>
+<li> Utility </li>
+</ol>
+
+
+
+<ol>
+<h2> Three ways to defence in depth </h2>
+<li> Prevent </li>
+<li> Detect </li>
+<li> Recover </li>
+</ol>
+
+<h4> What is security bug/Vulnerabilities? - are flaws/bugs in a computer system that weaken the overall security of the system. </h4>
+
+<p> Two types of Bug (1) Know Bugs - have patches (2)UnKnown Bugs - No patches </p>
+
+
+
+<ol>
+<h3> what is malware? - is a deceptive/mallicious software designed to cause disruption to a computer, server, client, or computer network, leak private information, gain unauthorized access to information or systems, deprive access to information, or which unknowingly interferes with the user's computer security and privacy. <b> Examples</b></h3>
+
+   <li> Macro Virus </li>
+   <li> Stealth Virus </li>
+   <li>Polymorphic Virus </li>
+   <li> Self-grabling virus </li>
+   <li> Bots & Zombies virus </li>
+
+</ol>
+
+
+<h3></h3>
+<h3></h3>
 
 
 
 
 
-<p><p>
-<div></div>
-<h1></h1>
-<span></span>
-<a href=""></a>
+
 
 
 
