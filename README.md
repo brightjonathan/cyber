@@ -121,15 +121,66 @@
 
    <li> Macro Virus </li>
    <li> Stealth Virus </li>
-   <li>Polymorphic Virus </li>
+   <li> Polymorphic Virus </li>
    <li> Self-grabling virus </li>
    <li> Bots & Zombies virus </li>
+   <li> worms - spreed viruse from one machine to another </li>
+   <li> OS Rootkit </li>
+   <li> Firmware Rootkit</li>
+   <li> Key logger </li>
+   <li> Trojan horses - program that appear to be safe but are malware </li>
+   <li> Remote Access Tool (RAT) </li>
+   <li> RANSOMWARE </li>
+   <li> Malvertisement - a ads. with a malware</li>
+   <li> Drive-by-Attack </li>
+   <li> spyware - Browser hijacking </li>
+   <li> Adware - malware that forces ads on users</li> 
+   <li> Scareware</li>
+   <li> Phishing - </li> 
+   <li> CPU Hijackers - crypto Mining malware/Cryptojackers </li>
+
 
 </ol>
 
 
-<h3></h3>
-<h3></h3>
+<h3> <a href="https://www.consumerfraudreporting.org/"> social engineering </a> </h3>
+
+<h3>Darknet  - Torbrowser</h3>
+
+
+
+<h2>Encryption - this simply means transform a plain text into  into a <strong> cipher text </strong> </h2>
+<h2> Decrypton - changing the cipher text into a plain text </h2>  
+
+<ol>
+  <h4> Two types of Encryption </h4>
+  <li> Asymmetric = 2 Keys(Public & Private) </li>
+  <li> Symmetric = 1 Keys(Private) </li>
+</ol>
+
+
+<h3> Secure Socket Layer (SSL) -  </h3>
+<h3> Transport Layer Security (TLS) - </h3>
+  
+<h2>HTTPS - </h2>
+
+<h2> End-to-End Encryption(E2EE)- Data Encrypted by the sender and decrypted by the receiver. End-to-End Encryption technologies include -  <b> ZRTP </b> <b>OTR</b> <b>SSL/TLS</b> <b>PGR - (outdated)</b></h2>
+
+
+<h4> STEGANOGRAPHY - Steganography is the practice of concealing information within another message or physical object to avoid detection. Steganography can be used to hide virtually any type of digital content, including text, image, video, or audio content. That hidden data is then extracted at its destination. Tech-software (Openpuff v4.00)
+<a href="https://spammimic.com/"> spammimic (for encoding and decoding) </a>
+</h4>
+
+<h3> Virtual Machine (VM) </h3>
+
+<ol>
+  <h5>Techs most populars </h5>
+  <li> Virtual Box (vBox) (straight forward download) </li>
+  <li> VM wares <a href="https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html"> VMware free download </a> </li>
+  <li> You have to download windows 10 operating system virtual machine (how to download window 10 virtual machine)</li>
+  
+</ol>
+
 
 
 
