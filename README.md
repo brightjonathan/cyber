@@ -171,14 +171,20 @@
 <a href="https://spammimic.com/"> spammimic (for encoding and decoding) </a>
 </h4>
 
-<h3> Virtual Machine (VM) </h3>
+<h3> Virtual Machine (VM wares) </h3>
 
 <ol>
   <h5>Techs most populars </h5>
-  <li> Virtual Box (vBox) (straight forward download) </li>
   <li> VM wares <a href="https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html"> VMware free download </a> </li>
   <li> You have to download windows 10 operating system virtual machine (how to download window 10 virtual machine)</li>
+  <li> have to install the the vm ware tools then restart you system</li>
+  <li> you have to change the setting when working on network - setting - Network Adapter - network connection </li>
   
+</ol>
+
+<h3>  Virtual Machine (Virtual Box) </h3>
+<ol>
+  <li> Virtual Box (vBox) (straight forward download) </li>
 </ol>
 
 
