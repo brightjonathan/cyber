@@ -188,6 +188,32 @@
 </ol>
 
 
+<h3> Installing a khali linux operating system </h3>
+<ol>
+  <li> <a hrem="https://www.kali.org/get-kali/#kali-platforms"> Here is the link </a> </li>
+</ol>
+
+
+<h3> operating system - Relation to Security </h3>
+
+
+<ol>
+  <h5> Windows - Based on security </h5>
+  <li> Windows OS has weak security from the design - Microsoft have started taking security seriously in their latest  OS Product. </li>
+</ol>
+
+
+<ol>
+  <h5> MAC OS - Based on security </h5>
+  <li> They have reasonable security feature like adress space, Application sandBox, Privacy controls, Apple trusted store Apps, etc.</li>
+</ol>
+
+
+
+<ol>
+  <h5> LINUX / BSD / UNIX like - Based on security </h5> 
+  <li> They have reasonable security features </li>
+</ol>
 
 
 
