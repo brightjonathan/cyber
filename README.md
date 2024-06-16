@@ -231,10 +231,23 @@
 </ul>
 
 <ul>
- <h3> Checking your MotherBoard setting</h3>
+ <h3> Checking your MotherBoard setting </h3>
  <li>Open your CMD and type <i> wmic csproduct get name, identifyingnumber,uuid </i> </li>
  <li>Open your CMD and type <i> wmic diskdrive or wmic diskdriver get serialnumber </i> </li>
 </ul>
+
+
+<h4> Whonix OP - can also run on a VN </h4>
+
+
+<ul>
+ <h3> What is ? </h3>
+ <li> Security Domain  - </li>
+ <li> Isolation -   </li>
+ <li> Compartmentalization - hypervisor running(VM)</li>
+</ul>
+
+
 
 
 
