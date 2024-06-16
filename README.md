@@ -22,7 +22,7 @@
 <ul>
 <h4> Using the Browser Scanner</h4>
   <li> click on we bugs  </li>
-  <li>  go to another email and send the url   </li>
+  <li>  go to another email and send the url </li>
   <li> once the link is been clicked it triggers the token in your mail box </li>
 </ul>
 
