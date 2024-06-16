@@ -242,9 +242,9 @@
 
 <ul>
  <h3> What is ? </h3>
- <li> Security Domain  - </li>
- <li> Isolation -   </li>
- <li> Compartmentalization - hypervisor running(VM)</li>
+ <li> Security Domain  - using OS like Whonix, Qubes for security measures  </li>
+ <li> Isolation -  having anither system that you can you to run security checks also using portable devices for browsing </li>
+ <li> Compartmentalization - hypervisor running(VM)(FOR ME THIS IS THE BEST )</li>
 </ul>
 
 
