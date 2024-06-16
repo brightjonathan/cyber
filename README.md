@@ -205,15 +205,40 @@
 
 <ol>
   <h5> MAC OS - Based on security </h5>
-  <li> They have reasonable security feature like adress space, Application sandBox, Privacy controls, Apple trusted store Apps, etc.</li>
+  <li> They have reasonable security feature like adress space, Application sandBox, Privacy controls, Apple trusted store Apps, etc </li>
 </ol>
-
 
 
 <ol>
   <h5> LINUX / BSD / UNIX like - Based on security </h5> 
   <li> They have reasonable security features </li>
 </ol>
+
+<h5>Updating and Patching software - simply fixing a security bug </h5>
+<p>SECUNIA.com - A software for checking updated software</p>
+
+<a href="https://www.urlvoid.com/">URL for scanning a website </a>
+<a href="https://research.domaintools.com/?_gl=1*1uthsn6*_ga*NTA5ODQ5ODYxLjE3MTg0NTY4NDI.*_ga_RPLVMKCB3Y*MTcxODQ1Njg0MS4xLjEuMTcxODQ1Njk5NS42MC4wLjA."> Checking Domain </a>
+
+<ul>
+<h3> Checking your mac address</h3>
+ <li>open ur CMD and type <i> ipconfig /all </i> </li>
+</ul>
+
+<ul>
+ <h3> Checking your BIOS setting</h3>
+ <li>Open your CMD and type <i> wmic bios get name,serialnumber,version </i> </li>
+</ul>
+
+<ul>
+ <h3> Checking your MotherBoard setting</h3>
+ <li>Open your CMD and type <i> wmic csproduct get name, identifyingnumber,uuid </i> </li>
+ <li>Open your CMD and type <i> wmic diskdrive or wmic diskdriver get serialnumber </i> </li>
+</ul>
+
+
+
+
 
 
 
