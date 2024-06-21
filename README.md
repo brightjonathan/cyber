@@ -266,6 +266,7 @@
 <li> Wireless </li>
 <li> Ethernet cables - switches, mac addresses and port </li>
 <li>find out the ip of Your Router:  look for the default gateway my devices - on WINDOWS go to CMD and type route print or ipconfig </li>
+<li>On Linux: ifconfig or  ip a show eth0 </li> 
 <h4>NAT - Network Address Transmitter</h4>
 </ul>
 
