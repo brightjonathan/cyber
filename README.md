@@ -245,8 +245,51 @@
  <h3> What is ? </h3>
  <li> Security Domain  - using OS like Whonix, Qubes for security measures  </li>
  <li> Isolation -  having anither system that you can you to run security checks also using portable devices for browsing </li>
- <li> Compartmentalization - hypervisor running(VM)(FOR ME THIS IS THE BEST )</li>
+ <li> Compartmentalization - hypervisor running(VM)(FOR ME THIS IS THE BEST ) </li>
 </ul>
+
+
+<ul>
+  <h4> Downloading kali-linux </h4>
+  <li> <a href="https://www.kali.org/"> Kali-linux </a></li> Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. 
+  <li></li>
+</ul>
+
+<hr />
+
+<h1>  VOLUME TWO </h2>
+
+<ul>
+<h4>Router - A router is a device that connects two or more packet-switched networks or subnetworks. It serves two primary functions: managing traffic between these networks by forwarding data packets to their intended IP addresses, and allowing multiple devices to use the same Internet connection. They can be connected by three ways:</h4>
+
+<li> The Internet </li>
+<li> Wireless </li>
+<li> Ethernet cables - switches, mac addresses and port </li>
+<li>find out the ip of Your Router:  look for the default gateway my devices - on WINDOWS go to CMD and type route print or ipconfig </li>
+<h4>NAT - Network Address Transmitter</h4>
+</ul>
+
+<h5>Nmap (Network Mapper) is a network scanner created by Gordon Lyon (also known by his pseudonym Fyodor Vaskovich). Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses.</h5>
+
+<ul>
+   <h4> how to scan network </h4>
+   <li> On Linux CMD and  type: ip a show eth0 </li>
+   <li>Then, look for ur ip add - and type: nmap -T4 -F 192.168.111.0/24 </li>
+   <li>Look for the scan report on each host </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
