@@ -282,7 +282,7 @@
 <ul>
 <h5> Firewall - A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</h5>
 
-<h2> Firewall in kali  Linu CMD using <i>iptables</i> </h2>
+<h2> Firewall in kali-Linux CMD using <i>iptables (ipv6) different rule in ipv6</i> </h2>
  <li> Install iptables - sudo apt-get install iptables-legacy </li>
  <li> check the chains - sudo iptables -L </li>
  <li> you can also change each chain e.g ( INPUT, FORWARD, OUTPUT)</li>
@@ -312,8 +312,34 @@
   <li> (i) sudo iptables -A OUTPUT -o lo -j ACCEPT </li>
   <li>(ii) sudo iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</li>
   <li> (iii) sudo iptables -A OUTPUT -o eth0 -p udp --dport 53 -j ACCEPT </li>
+  <li>(iv) sudo iptables -A OUTPUT -o eth0 -p tcp -m tcp --dport 80 -m state --state NEW -j ACCEPT</li>
+  <li> (v) sudo iptables -A OUTPUT -o eth0 -p tcp -m tcp --dport 443 -m state --state NEW -j ACCEPT</li>
+   <li>TEST IT USING : wget www.bbc.co.uk (DO THIS ON YOUR CMD) FOR PORT 443 </li>
+   <li> TEST IT USING : wget https://github.com/brightjonathan/cyber (DO THIS ON YOUR CMD) FOR PORT 80</li>
   <li>sudo iptables -L --line-number -n or sudo iptables -L --line-number  </li>
+  <li>FOR me to see all the command i used on iptables do this: sudo iptables -S </li>
+  <li> Deleting the rules on any chain do this: sudo iptables -D OUTPUT 5 (for rule 5)</li>
  </li>
+ <hr/>
+
+ <h4>Changing it to default </h4>
+   <li>RULE 1: all chain should be on ACCEPT 
+   <li> sudo iptables -P INPUT ACCEPT</li>
+   <li> sudo iptables -P FORWARD ACCEPT</li>
+   <li> sudo iptables -P OUTPUT ACCEPT</li>
+ </li>
+
+ <h4> Use the following command </h4>
+   <li> The command:  
+   <li> sudo iptables -t nat -F</li>
+   <li> sudo iptables -t mangle -F</li>
+   <li> sudo iptables -F </li>
+   <li> sudo iptables -X </li>
+ </li>
+
+ <h5>iptables -L (for ip version 6 different chain rules)</h5>
+
+ 
 
 
 
