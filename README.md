@@ -282,7 +282,7 @@
 <ul>
 <h5> Firewall - A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</h5>
 
-<h6> Firewall in kali  Linu CMD</h6>
+<h2> Firewall in kali  Linu CMD using <i>iptables</i> </h2>
  <li> Install iptables - sudo apt-get install iptables-legacy </li>
  <li> check the chains - sudo iptables -L </li>
  <li> you can also change each chain e.g ( INPUT, FORWARD, OUTPUT)</li>
