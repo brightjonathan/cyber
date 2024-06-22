@@ -279,6 +279,49 @@
    <li>Look for the scan report on each host </li>
 </ul>
 
+<ul>
+<h5> Firewall - A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</h5>
+
+<h6> Firewall in kali  Linu CMD</h6>
+ <li> Install iptables - sudo apt-get install iptables-legacy </li>
+ <li> check the chains - sudo iptables -L </li>
+ <li> you can also change each chain e.g ( INPUT, FORWARD, OUTPUT)</li>
+ <li> Changing the chain is - sudo iptables -P INPUT DROP (DROP, ACCEPT, REJECT) do same with all the chains ( INPUT, FORWARD, OUTPUT) </li>
+ <li> setting it to default - sudo iptables -F </li>
+
+ <hr/>
+
+ <h6> if you want to set up a rule to Lock down or browse only the web</h6>
+ <li>RULE 1: all chain should be on DROP 
+   <li> sudo iptables -P INPUT DROP</li>
+   <li> sudo iptables -P FORWARD DROP</li>
+   <li> sudo iptables -P OUTPUT DROP</li>
+ </li>
+
+ <hr/>
+
+ <li> RULE 2 : setting the rule for the first chain 
+ <li>(i) sudo iptables -A INPUT -i lo -j ACCEPT</li>
+ <li>(ii) sudo iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT</li>
+ <li> Checking them out: sudo iptables -L -v or sudo iptables -L -v --line-number -n or sudo iptables -L --line-number -n </li>
+ </li>
+
+ <hr/>
+
+ <li>RULE 3: setting the rule for the third chain
+  <li> (i) sudo iptables -A OUTPUT -o lo -j ACCEPT </li>
+  <li>(ii) sudo iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</li>
+  <li> (iii) sudo iptables -A OUTPUT -o eth0 -p udp --dport 53 -j ACCEPT </li>
+  <li>sudo iptables -L --line-number -n or sudo iptables -L --line-number  </li>
+ </li>
+
+
+
+</ul>
+
+
+
+
 
 
 
