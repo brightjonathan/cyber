@@ -282,6 +282,8 @@
 <ul>
 <h5> Firewall - A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</h5>
 
+<h6>Two types of firewall - (1) Network base Firewall(Router) (2) Host Base Firewall (laptop/software) </h6>
+
 <h2> Firewall in kali-Linux CMD using <i>iptables (ipv6) different rule in ipv6</i> </h2>
  <li> Install iptables - sudo apt-get install iptables-legacy </li>
  <li> check the chains - sudo iptables -L </li>
@@ -338,10 +340,32 @@
  </li>
 
  <h5>iptables -L (for ip version 6 different chain rules)</h5>
+</ul>
 
- 
+<ul>
+<h4>UFW - (Uncomplicated Firewall) is a firewall configuration tool in Kali Linux that provides a simple and easy way to manage firewall rules. It is a frontend for the iptables firewall utility, which is a powerful but complex tool for managing network traffic.</h4>
 
+<li> install ufw -  sudo apt install ufw </li>
+<li> checking status - sudo ufw status </li>
+<li> Enable ufw - sudo ufw enable </li>
+<li> check it out with this command: sudo iptables -L --line-number -n</li>
+<li> deny incoming - sudo ufw default deny incoming </li>
+<li> allow outgoing-  sudo ufw default allow outgoing </li>
+<li>allow port 22 - sudo ufw allow out 22 </li>
+<li>deleting port 22 - sudo ufw delete allow out 22 </li>
+<li>adding udp - sudo ufw allow out 67:68/udp</li>
+<li>checking it - sudo ufw status verbose or sudo ufw status numbered </li>
 
+<li>changing it to only ipv4 not ipv6 - nano /etc/default/ufw</li>
+
+<hr/>
+Some additional commands to get you started:
+
+- sudo ufw status to check the status of UFW
+- sudo ufw allow <port> to allow traffic on a specific port
+- sudo ufw deny <port> to deny traffic on a specific port
+- sudo ufw reset to reset UFW to its default settings
+<hr/>
 
 </ul>
 
