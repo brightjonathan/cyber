@@ -370,8 +370,19 @@ Some additional commands to get you started:
 </ul>
 
 
+<ul>
+<h3> Network Monitoring </h3>
+ <li> wiresshark - </li>
+ <li> tcpdump - run this on the CMD: tcpdump -h
+ 
+ <li> run this on the CMD to pop up options: tcpdump -D</li>
+ <li> select any option e.g: sudo tcpdump -i eth0 or sudo tcpdump -i any </li>
+ 
+</li>
 
-
+ <li>tshark - </li>
+ <li>iptables</li>
+</ul>
 
 
 
