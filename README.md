@@ -372,16 +372,23 @@ Some additional commands to get you started:
 
 <ul>
 <h3> Network Monitoring </h3>
- <li> wiresshark - </li>
- <li> tcpdump - run this on the CMD: tcpdump -h
+ <li> wiresshark - sudo apt-get install wireshark  </li>
+ <li> tcpdump - run this on the CMD: sudo tcpdump -h
  
- <li> run this on the CMD to pop up options: tcpdump -D</li>
- <li> select any option e.g: sudo tcpdump -i eth0 or sudo tcpdump -i any </li>
+ <li> run this on the CMD to pop up options: tcpdump -D </li>
+ <li> select any option e.g: sudo tcpdump -i eth0 or sudo tcpdump -i any or tcpdump -c 100 -i eth0 </li>
  
 </li>
 
- <li>tshark - </li>
- <li>iptables</li>
+ <li> tshark - </li>
+ <li> iptables </li>
+</ul>
+
+
+<ul>
+<h2>How to check a url ip address on Windows </h2>
+<li> Go to ur CMD: ping www.udemy.com </li>
+<li> type: netstat -an </li>
 </ul>
 
 
