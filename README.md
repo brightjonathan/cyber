@@ -386,9 +386,9 @@ Some additional commands to get you started:
 
 
 <ul>
-<h2>How to check a url ip address on Windows </h2>
-<li> Go to ur CMD: ping www.udemy.com </li>
-<li> type: netstat -an </li>
+<h2> How to check a url ip address on Windows </h2> 
+<li> Go to ur CMD: ping www.udemy.com </li> 
+<li> type: netstat -an </li> 
 </ul>
 
 
